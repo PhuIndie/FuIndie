@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FuIndie Clothing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="wrapper">
+        <div class="wrapper-login">
+            <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have account ? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account ? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <header>
+          <a href="#" class="logo-main">
+            <div class="logo">FuIndie <br></div>
+            <div class="des-logo">Urban Outfitters</div>
+          </a>
+          <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="#" class="active">Gallery</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                <li><a href="#" class="active" id="loginbtn">Login</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+            <div class="left-col">
+                <h1>Explore your style through products
+                </h1>
+                <p class="subhead">FuIndie has been creating fashionable, comfortable and lasting pieces for men in Vietnam since 2023.</p>
+                <div class="cta-btns">
+                    <a href="#" class="primary-cta"> Browse our collection</a>
+                </div>
+                <div class="news">
+                    <p class="employees">100K</p>
+                    <p class="detail">We're proud to annouce that we are here to <br> inform that we've already have 100k visitors through this web. Thank you for your attedance!</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="card card1">
+                    <div class="card-detail">
+                        <div>
+                            <a href="#" class="product-title">Black T-Shirt</a>
+                            <p class="product-descrip">Men Clothing</p>
+                        </div>
+                        <p id="product-price">$39</p>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="card-detail">
+                        <div>
+                            <a href="#" class="product-title">Crinkle Shirt</a>
+                            <p class="product-descrip">Men Clothing</p>
+                        </div>
+                        <p id="product-price">$49</p>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="card-detail">
+                        <div>
+                            <a href="#" class="product-title">White T-Shirt</a>
+                            <p class="product-descrip">Men Clothing</p>
+                        </div>
+                        <p id="product-price">$30</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
